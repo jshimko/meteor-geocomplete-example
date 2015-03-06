@@ -1,6 +1,6 @@
 # Geocomplete Example
 
-This is example usage of the jeremy:geocomplete package for Meteor.
+This is example usage of the [jeremy:geocomplete][1] package for Meteor.
 
 Demo: http://geocomplete.meteor.com
 
@@ -13,6 +13,9 @@ meteor install jeremy:geocomplete
 
 ## More Info
 
-[Atmosphere](https://atmospherejs.com/jeremy/geocomplete)
+[Atmosphere][1]
 
-[Github](https://github.com/jshimko/meteor-geocomplete/)
+[Github][2]
+
+[1]: https://atmospherejs.com/jeremy/geocomplete
+[2]: https://github.com/jshimko/meteor-geocomplete/

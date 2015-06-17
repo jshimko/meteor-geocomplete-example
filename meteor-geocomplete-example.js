@@ -11,7 +11,7 @@ if (Meteor.isClient) {
 
   Template.geocompleteExample.rendered = function () {
 
-    Tracker.autorun(function () {
+    this.autorun(function () {
       // Wait for API to be loaded
       if (GoogleMaps.loaded()) {
 

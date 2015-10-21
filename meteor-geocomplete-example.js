@@ -1,17 +1,17 @@
 if (Meteor.isClient) {
 
   // Load the Google Maps API on startup
-  Meteor.startup(function() {
+  Meteor.startup(() => {
     GoogleMaps.load({
-      key: 'YOUR API KEY',
+      key: 'AIzaSyAK_vkvxDH5vsqGkd0Qn-dDmq-rShTA7UA',
       libraries: 'places'
     });
   });
 
 
-  Template.geocompleteExample.rendered = function () {
+  Template.geocompleteExample.onRendered(function () {
 
-    this.autorun(function () {
+    this.autorun(() => {
       // Wait for API to be loaded
       if (GoogleMaps.loaded()) {
 
@@ -32,6 +32,6 @@ if (Meteor.isClient) {
       }
     });
 
-  }
+  });
 
 }
